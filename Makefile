@@ -1,6 +1,6 @@
 # paths
-MODULES = ../../solutions-ergasia1/question4
-INCLUDE = ../../solutions-ergasia1/question4
+MODULES = ../Cryptarithmetic-Puzzle
+INCLUDE = ../Cryptarithmetic-Puzzle
 
 # compiler
 CC = gcc
@@ -9,10 +9,10 @@ CC = gcc
 CFLAGS = -Wall -Werror -g -I$(INCLUDE)
 
 # Αρχεία .o
-OBJS = quest4.o $(MODULES)/puzzlerec.o
+OBJS = puzzle.o $(MODULES)/puzzlerec.o
 
 # Το εκτελέσιμο πρόγραμμα
-EXEC = quest4
+EXEC = puzzle
 
 # Παράμετροι για δοκιμαστική εκτέλεση
 ARGS = #
